@@ -1,0 +1,11 @@
+
+<app-header _id="Hello"></app-header>
+<p (click)="_alert()">home works!</p>
+
+<div>
+    @for(item of [1,2,3,4,5]; track item){
+      
+        <p [style]="{color: item % 2 === 0 ? 'red' : 'blue'}">{{item}}</p>
+    }
+    
+</div>
